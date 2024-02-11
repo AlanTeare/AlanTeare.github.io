@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+    background: #fff;
+    color: #000;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+a {
+    color: #262622;
+    text-decoration: none;
+}
+
+.showcase p {
+    /* background-color: #ffe4e427; */
+    color: #0070ff; /* #0070ff */
+    -webkit-text-stroke: 0.3px black; /* Grosor y color del borde */
+
+    /* border-color: rgba(0, 0, 0, 0.137); */
+    /* border-width: 10px; */
+    /* border-style: solid; */
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* Nav  */
+.main-nav {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+    font-size: 13px;
+}
+
+.main-nav .logo {
+    width: 100px;
+
+}
+
+.main-nav ul {
+    display: flex;
+    /* justify-content: center; */
+}
+
+.main-nav ul li {
+    padding: 0 10px;
+}
+
+
+.main-nav ul li a {
+
+    padding-bottom: 2px;
+}
+
+
+.main-nav ul li a:hover {
+    border-bottom: 2px solid orangered;
+}
+
+
+.main-nav ul.main-menu {
+    flex: 1;
+    margin-left: 20px;
+}
+
+/* Botton Shop now */
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #262626;
+    color: #fff;
+    font-size: 15px;
+}
+
+.btn:hover {
+    opacity: 0.9;
+
+}
+
+/* showcase */
+
+.showcase {
+    width: 100%;
+    height: 400px;
+    background: url('../images/header-background_4.jpg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+}
+
+.showcase h2 {
+    margin-bottom: 10px;
+    color: orangered;
+
+}
+
+.showcase .btn {
+    margin-top: 20px;
+}
+
+/* Home Cards */
+
+.home-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.home-cards img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+.home-cards h3{
+    margin-bottom: 5px;
+}
+
+.home-cards a{
+    display: inline-block;
+    padding-top: 10px;
+    color: #0067b8;
+    text-transform: uppercase;
+   font-weight: bold;
+}
+
+.home-cards a:hover i{
+    margin-left: 10px;
+       
+}
+
+/* Xbox */
+.xbox {
+    width: 100%;
+    height: 350px;
+    background: url('https://i.ibb.co/tBJGPD9/xbox.png') no-repeat center center/cover;
+    margin-bottom: 20px;
+  }
