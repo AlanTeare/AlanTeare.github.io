@@ -114,6 +114,9 @@
     margin-top: 20px;
 }
 
+
+
+
 /* Home Cards */
 
 .home-cards{
@@ -144,6 +147,16 @@
     margin-left: 10px;
        
 }
+
+
+/* education-university */
+
+.education-university{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
 
 /* Xbox */
 .xbox {
