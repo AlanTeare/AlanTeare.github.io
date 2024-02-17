@@ -21,6 +21,8 @@
     list-style: none;
   }
   
+
+
   .container {
     width: 90%;
     max-width: 1100px;
@@ -151,12 +153,18 @@
 
 /* education-university */
 
+
+
 .education-university{
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 20% 70%;
   grid-gap: 20px;
 }
 
+.education-university img{
+  width: 80%;
+  margin-bottom: 20px;
+}
 
 /* Xbox */
 .xbox {
@@ -201,6 +209,42 @@
     width: 55%;
     padding: 10px 0 0 30px;
   }
+
+
+  /* info */
+.info {
+  width: 100%;
+  height: 20px;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.info p {
+  text-align: justify;
+}
+/* 
+
+.xbox .content {
+  width: 40%;
+  padding: 50px 0 0 30px;
+}
+
+.xbox h2, .carbon h2 {
+  margin: 10px 0 20px;
+  color: #fff 
+}
+
+
+.xbox p  {
+  margin: 10px 0 20px;
+  color: orangered 
+}
+
+.carbon p {
+  margin: 10px 0 20px;
+  color: orangered 
+} */
+
   
   /* Follow */
   .follow {
