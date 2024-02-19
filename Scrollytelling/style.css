@@ -121,6 +121,10 @@ section img {
 section img#sea_middle {
   z-index: 10;
 }
+section img#Front_sea {
+  z-index: 10;
+}
+
 
 #text {
   position: relative;
