@@ -157,7 +157,7 @@
 
 .education-university{
   display: grid;
-  grid-template-columns: 20% 70%;
+  grid-template-columns: 30% 70%;
   grid-gap: 20px;
 }
 
