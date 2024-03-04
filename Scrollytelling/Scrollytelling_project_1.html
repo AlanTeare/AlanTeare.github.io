@@ -130,6 +130,7 @@
         let text = document.getElementById('text');
         let Front_sea = document.getElementById('Front_sea');
         let header = document.querySelector('header');
+        let sec = document.getElementById('sec')
         window.addEventListener('scroll', function () {
           let value = window.scrollY;
           // sea.style.transform = 'rotate('+ 0.0015* value + 'deg)';
@@ -139,6 +140,8 @@
           btn.style.marginTop = value * 1.5 + 'px';
           // Front_sea.style.scrollMarginLeft = value* 14 + 'px';
           header.style.top = value * 0.5 + 'px';
+          sec.style.marginRight = value * 30 + 'px';
+
         })
       </script>
   </body>
